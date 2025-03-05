@@ -1,3 +1,27 @@
 body {
-    background: blue;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+.section {
+  margin-top: 20px;
+}
+ul, ol {
+  padding-left: 20px;
+}
