@@ -4,7 +4,9 @@ body {
   margin: 0; 
   font-family: Arial, sans-serif; 
 }
-
+h1 {
+  font-family:cursive;
+}
 .container {
   max-width: 800px; 
   margin: 0 auto; 
@@ -15,7 +17,7 @@ body {
 .description {
   width: 100%; 
   max-width: 600px; 
-  margin: 20px auto; 
+  margin: 0px auto; 
   padding: 15px;
   box-sizing: border-box;
   text-align: center; 
@@ -64,12 +66,15 @@ img {
 }
 
 .hidden-text {
-  display: none; 
-  margin-top: 10px; 
+  display: none;
+  position: fixed;
+  background-color: rgba(255, 215, 0, 0.9); /* Slightly more opaque */
+  color: #800020;
   padding: 10px;
-  background-color: rgba(255, 215, 0, 0.1); 
-  border-radius: 5px; 
-  border: 1px solid gold; 
+  border-radius: 5px;
+  border: 1px solid gold;
+  z-index: 9999;
+  max-width: 200px;
 }
 
 #downloadBtn {
@@ -137,4 +142,24 @@ img {
   }
   #downloadBtn:hover {
     transform: scale(1.05);
+  }
+  .images {
+    margin: auto;
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  .images img{
+    width: 25%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 200%;
+    border: 2px solid gold;
+    transition: all ease-in-out 0.3s;
+  }
+
+  .container img:hover {
+    width: 50%;
   }
