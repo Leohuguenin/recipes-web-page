@@ -11,39 +11,69 @@
       <h1>Wagyu Steak Tartare</h1>
       <img src="wagyu-tartare.jpg" alt="Wagyu Steak Tartare">
       
-      <div class="section">
-          <h2>Description</h2>
-          <p>This Wagyu Steak Tartare is a refined take on the classic, delicate and flavorful dish made with high-quality Wagyu beef infused with bold Brazilian flavors.</p>
+      <!-- Description Section -->
+      <div class="section description">
+        <h2>Description</h2>
+        <p>This Wagyu Steak Tartare is a refined take on the classic, delicate and flavorful dish made with high-quality Wagyu beef infused with bold Brazilian flavors.</p>
       </div>
       
-      <div class="section">
+      <!-- Ingredients and Preparation Steps -->
+      <div class="section-container">
+        <div class="section ingredients">
           <h2>Ingredients</h2>
           <ul>
-              <li>100g Wagyu beef (finely chopped)</li>
-              <li>1 tbsp coriander (chopped)</li>
-              <li>1 tea spoon parsley (chopped)</li>
-              <li>1 tbsp pickled shallot (finely chopped)</li>
-              <li>A few dots of dendê mayo</li>
-              <li>1 tsp sofrito</li>
-              <li>Salt and pepper to taste</li>
-              <li>Watercress (for garnish)</li>
-              <li>A drizzle of olive oil</li>
-              <li>A dash of Tabasco</li>
-              <li>A few pieces of cassava crisps (randomly broken)</li>
+            <li>100g Wagyu beef (finely chopped)</li>
+            <li>1 tbsp coriander (chopped)</li>
+            <li>1 tea spoon parsley (chopped)</li>
+            <li>1 tbsp pickled shallot (finely chopped)</li>
+            <li>A few dots of <span id="dende-mayo" class="clickable">dendê mayo</span></li>
+            <li>1 tsp sofrito</li>
+            <li>Salt and pepper to taste</li>
+            <li>Watercress (for garnish)</li>
+            <li>A drizzle of olive oil</li>
+            <li>A dash of Tabasco</li>
+            <li>A few pieces of <span id="cassava-crisps" class="clickable">cassava crisps</span></li>
           </ul>
-      </div>
-      
-      <div class="section">
+          <!-- Hidden text for dendê mayo -->
+          <div id="dende-mayo-info" class="hidden-text">
+           <p>
+            Dendê mayo is a Brazilian-inspired mayonnaise made with palm oil (dendê oil), giving it a rich, golden color and unique flavor.  
+           </p>  
+            <ol>
+              <li>Make a mayo base using 3 egg yolks</li>
+              <li>Add 1 red chilli and 5 tbsp palm oil</li>
+              <li>Transfer to piping bags.</li>
+            </ol>
+           </p>
+          </div>
+          <!-- Hidden text for cassava crisps -->
+          <div id="cassava-crisps-info" class="hidden-text">
+           <p>
+            Cassava crisps are thin, crispy chips made from cassava root, a staple in Brazilian cuisine.
+           </p>
+             <ol>
+               <li>Bring 500g of cassava to boil, until overcooked</li>
+               <li>Add 50g of tapioca flour and blend in the thermomix.</li>
+               <li>Keep adding water until not too sticky</li>
+               <li>Spread over flat trays</li>
+               <li>Dehydrate overnight</li>
+               <li>Deep fry in very hot (smoky) oil </li>
+             </ol>
+          </div>
+        </div>
+        
+        <div class="section preparation">
           <h2>Preparation Steps</h2>
           <ol>
-              <li>Finely chop the Wagyu beef and place it in a mixing bowl.</li>
-              <li>Add all ingredients except for the mayo and cassava crisps.</li>
-              <li>Gently mix all ingredients until well combined.</li>
-              <li>Scoop the mixture onto the plate and shape it freely with a spoon.</li>
-              <li>Carefully add the mayo dots randomly.</li>
-              <li>Garnish with watercress and serve immediately with cassava crisps.</li>
+            <li>Finely chop the Wagyu beef and place it in a mixing bowl.</li>
+            <li>Add all ingredients except for the mayo and cassava crisps.</li>
+            <li>Gently mix all ingredients until well combined.</li>
+            <li>Scoop the mixture onto the plate and shape it freely with a spoon.</li>
+            <li>Carefully add the mayo dots randomly.</li>
+            <li>Garnish with watercress and serve immediately with cassava crisps.</li>
           </ol>
+        </div>
       </div>
     </div>
-  </body>
-</html>
+    <script src="script.js"></script>
+  </body>    

@@ -1,27 +1,73 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 20px;
-  background-color: #f8f8f8;
+  background-color: #800020;
+  color: white; 
+  margin: 0; 
+  font-family: Arial, sans-serif; 
 }
+
 .container {
-  max-width: 600px;
-  margin: auto;
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px; 
+  margin: 0 auto; 
+  padding: 20px; 
+  text-align: center; 
 }
-h1 {
-  text-align: center;
+
+.description {
+  width: 100%; 
+  max-width: 600px; 
+  margin: 20px auto; 
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center; 
 }
+
+.section-container {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  margin-top: 20px; 
+}
+
+.ingredients,
+.preparation {
+  flex: 1; 
+  max-width: 300px;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: left; 
+}
+
+h2 {
+  transition: all 0.3s ease; 
+}
+
+.ingredients h2:hover,
+.preparation h2:hover {
+  background-color: gold; 
+  color: #800020; 
+  border-radius: 20px; 
+  padding: 10px 15px; 
+  display: inline-block; 
+}
+
 img {
-  width: 100%;
-  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  display: block; 
+  margin: 0 auto; 
 }
-.section {
-  margin-top: 20px;
+
+.clickable {
+  cursor: pointer; 
+  color: gold; 
+  text-decoration: underline; 
 }
-ul, ol {
-  padding-left: 20px;
+
+.hidden-text {
+  display: none; 
+  margin-top: 10px; 
+  padding: 10px;
+  background-color: rgba(255, 215, 0, 0.1); 
+  border-radius: 5px; 
+  border: 1px solid gold; 
 }
