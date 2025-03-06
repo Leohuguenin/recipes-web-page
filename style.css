@@ -71,3 +71,70 @@ img {
   border-radius: 5px; 
   border: 1px solid gold; 
 }
+
+#downloadBtn {
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: gold;
+  color: #800020;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+  .form-container {
+    position: fixed;
+    bottom: 70px;
+    left: 20px;
+    display: none;
+    gap: 10px;
+    background-color: rgba(255, 215, 0, 0.9);
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  #emailInput {
+    padding: 8px;
+    border: 1px solid #800020;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  #submitBtn {
+    padding: 8px 15px;
+    background-color: #800020;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .submitted-message {
+    position: fixed;
+    bottom: 70px;
+    left: 20px;
+    color: gold;
+    display: none;
+    padding: 15px;
+    background-color: rgba(128, 0, 32, 0.9);
+    border-radius: 10px;
+  }
+  .download-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .download-text {
+    color: white;
+    font-size: 0.9em;
+    margin-left: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  #downloadBtn:hover {
+    transform: scale(1.05);
+  }
